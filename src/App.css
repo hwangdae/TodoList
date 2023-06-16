@@ -1,0 +1,96 @@
+:root{
+  --max-width:1200px;
+  --min-width:800px;
+  --point-color:#242424;
+}
+header{
+  background: #eee;
+}
+.header-inner{
+  max-width: var(--max-width);
+  min-width: var(--min-width);
+  margin: 0 auto;
+  padding: 20px;
+}
+form{
+  display: flex;
+  justify-content: space-between;
+}
+.input-wrap{
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.input-wrap label{
+  font-size: 17px;
+  font-weight: bold;
+}
+.input-wrap input{
+  width: 240px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+.addButton{
+  padding: 15px 40px;
+  background: var(--point-color);
+  color: #fff;
+  border: solid 1px #282828;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+section{
+  max-width: var(--max-width);
+  min-width: var(--min-width);
+  margin: 0 auto !important;
+}
+.section-inner{
+  padding: 20px 0px;
+}
+.section-inner>h1{
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  letter-spacing: -1px;
+}
+.work-box{
+  display: flex;
+  justify-content: space-between;
+  border-left: solid 1px #ddd;
+  border-right: solid 1px #ddd;
+  background: #eee;
+  border-radius: 7px;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+}
+.title-wrap>h1{
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  letter-spacing: -1px;
+}
+.button-wrap{
+  display: flex;
+  gap: 7px;
+}
+.button-wrap button{
+  padding: 7px 25px;
+  border: solid 2px var(--point-color);
+  border-radius: 7px;
+  background: none;
+}
+.completeButton,
+.calcelButton{
+  background: rgb(24, 175, 44) !important;
+  border: solid 1px rgb(40, 168, 40) !important;
+  color: #fff;
+}
+.delButton{
+  background: rgb(248, 78, 78) !important;
+  border: solid 1px red !important;
+  color: #fff;
+}
